@@ -1,0 +1,70 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Tue Oct 24 09:32:47 2017
+| Host         : DESKTOP-SSD56BU running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file User_control_sets_placed.rpt
+| Design       : User
+| Device       : xc7a35ti
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     7 |
+| Unused register locations in slices containing registers |    10 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              15 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              55 |           16 |
+| Yes          | No                    | No                     |              16 |            4 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              16 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------+--------------------------------+------------------+----------------+
+|  Clock Signal  | Enable Signal |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
++----------------+---------------+--------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG |               |                                |                2 |              4 |
+|  clk_IBUF_BUFG |               | U1/U1/Clock_Counter__8         |                3 |              8 |
+|  TBCLK_BUFG    |               |                                |                4 |             11 |
+|  TBCLK_BUFG    |               | U1/U2/TBCTR_Buffer[15]_i_1_n_0 |                5 |             16 |
+|  TBCLK_BUFG    | U1/U2/E[0]    |                                |                4 |             16 |
+|  clk_IBUF_BUFG | CMPA_1        | CMPA_1[15]_i_1_n_0             |                4 |             16 |
+|  clk_IBUF_BUFG |               | CMPA_1                         |                8 |             31 |
++----------------+---------------+--------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     1 |
+| 8      |                     1 |
+| 11     |                     1 |
+| 16+    |                     4 |
++--------+-----------------------+
+
+

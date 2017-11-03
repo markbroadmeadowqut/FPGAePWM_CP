@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1508801511">
+  <File Type="RDS-PROPCONSTRS" Name="User_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="User.tcl"/>
+  <File Type="RDS-RDS" Name="User.vds"/>
+  <File Type="RDS-UTIL" Name="User_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="User_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="User.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="User_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="User_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Action_Qualifier.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Action_Qualifier.vhd"/>
+        <Attr Name="ImportTime" Val="1503203450"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Clock_Prescale.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Clock_Prescale.vhd"/>
+        <Attr Name="ImportTime" Val="1502962664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter_Compare.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Counter_Compare.vhd"/>
+        <Attr Name="ImportTime" Val="1503187171"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Dead_Band.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd"/>
+        <Attr Name="ImportTime" Val="1503297904"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Event_Trigger.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/Event_Trigger.vhd"/>
+        <Attr Name="ImportTime" Val="1506399749"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Time_Base.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Time_Base.vhd"/>
+        <Attr Name="ImportTime" Val="1503200940"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Trip_Zone.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ePWM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd"/>
+        <Attr Name="ImportTime" Val="1503298318"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/User.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="User"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ARTY_Constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/new/ARTY_Constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1502937567"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/Arty_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../Documents/Arty Programming Practice/Practice_3 - Copy/Practice_3.srcs/constrs_1/imports/constraints/Arty_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1501991987"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

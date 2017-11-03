@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Action_Qualifier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Action_Qualifier
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Clock_Prescale.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Prescale
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Counter_Compare.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Counter_Compare
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Dead_Band
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Event_Trigger.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Event_Trigger
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Time_Base.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Time_Base
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Trip_Zone.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Trip_Zone
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity User
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ePWM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sim_1/new/ePWM_Simulation.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ePWM_Simulation

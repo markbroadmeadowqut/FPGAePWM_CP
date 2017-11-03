@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ePWM_Simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ePWM_Simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1201000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1801000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="141"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wave_markers>
+      <marker time="315005000000" label="" />
+      <marker time="345005000000" label="" />
+      <marker time="445005000000" label="" />
+      <marker time="545005000000" label="" />
+      <marker time="645005000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/ePWM_Simulation/UUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/EPWMxSYNCI" type="logic">
+      <obj_property name="ElementShortName">EPWMxSYNCI</obj_property>
+      <obj_property name="ObjectShortName">EPWMxSYNCI</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider109">
+      <obj_property name="label">Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/EPWMxSYNCO" type="logic">
+      <obj_property name="ElementShortName">EPWMxSYNCO</obj_property>
+      <obj_property name="ObjectShortName">EPWMxSYNCO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/ePWM_A_1" type="logic">
+      <obj_property name="ElementShortName">ePWM_A_1</obj_property>
+      <obj_property name="ObjectShortName">ePWM_A_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/ePWM_B_1" type="logic">
+      <obj_property name="ElementShortName">ePWM_B_1</obj_property>
+      <obj_property name="ObjectShortName">ePWM_B_1</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/ePWM_A_2" type="logic">
+      <obj_property name="ElementShortName">ePWM_A_2</obj_property>
+      <obj_property name="ObjectShortName">ePWM_A_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/ePWM_B_2" type="logic">
+      <obj_property name="ElementShortName">ePWM_B_2</obj_property>
+      <obj_property name="ObjectShortName">ePWM_B_2</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/ePWM_A_3" type="logic">
+      <obj_property name="ElementShortName">ePWM_A_3</obj_property>
+      <obj_property name="ObjectShortName">ePWM_A_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/ePWM_B_3" type="logic">
+      <obj_property name="ElementShortName">ePWM_B_3</obj_property>
+      <obj_property name="ObjectShortName">ePWM_B_3</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

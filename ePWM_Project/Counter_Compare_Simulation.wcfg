@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ePWM_Simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ePWM_Simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="199825254486fs"></ZoomEndTime>
+      <Cursor1Time time="401000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="153"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U3/TBCLK" type="logic">
+      <obj_property name="ElementShortName">TBCLK</obj_property>
+      <obj_property name="ObjectShortName">TBCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U3/TBCTR" type="array">
+      <obj_property name="ElementShortName">TBCTR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">TBCTR[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U3/CTR_PRD" type="logic">
+      <obj_property name="ElementShortName">CTR_PRD</obj_property>
+      <obj_property name="ObjectShortName">CTR_PRD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U3/CTR_Zero" type="logic">
+      <obj_property name="ElementShortName">CTR_Zero</obj_property>
+      <obj_property name="ObjectShortName">CTR_Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/CMPA_1" type="array">
+      <obj_property name="ElementShortName">CMPA_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">CMPA_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider58">
+      <obj_property name="label">In Out Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U3/CTR_CMPA" type="logic">
+      <obj_property name="ElementShortName">CTR_CMPA</obj_property>
+      <obj_property name="ObjectShortName">CTR_CMPA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U3/CTR_CMPB" type="logic">
+      <obj_property name="ElementShortName">CTR_CMPB</obj_property>
+      <obj_property name="ObjectShortName">CTR_CMPB</obj_property>
+   </wvobject>
+</wave_config>

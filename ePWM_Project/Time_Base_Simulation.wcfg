@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ePWM_Simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ePWM_Simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="219920201295fs"></ZoomEndTime>
+      <Cursor1Time time="601000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="149"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wave_markers>
+      <marker time="55005000000" label="" />
+      <marker time="65005000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/TBCLK" type="logic">
+      <obj_property name="ElementShortName">TBCLK</obj_property>
+      <obj_property name="ObjectShortName">TBCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/TBPRD" type="array">
+      <obj_property name="ElementShortName">TBPRD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">TBPRD[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/TBPRD_Active" type="array">
+      <obj_property name="ElementShortName">TBPRD_Active[15:0]</obj_property>
+      <obj_property name="ObjectShortName">TBPRD_Active[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/TBPHS" type="array">
+      <obj_property name="ElementShortName">TBPHS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">TBPHS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/EPWMxSYNCI" type="logic">
+      <obj_property name="ElementShortName">EPWMxSYNCI</obj_property>
+      <obj_property name="ObjectShortName">EPWMxSYNCI</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider47">
+      <obj_property name="label">In Out Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/TBCTR" type="array">
+      <obj_property name="ElementShortName">TBCTR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">TBCTR[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/CTR_Zero" type="logic">
+      <obj_property name="ElementShortName">CTR_Zero</obj_property>
+      <obj_property name="ObjectShortName">CTR_Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/CTR_PRD" type="logic">
+      <obj_property name="ElementShortName">CTR_PRD</obj_property>
+      <obj_property name="ObjectShortName">CTR_PRD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/CTR_dir" type="logic">
+      <obj_property name="ElementShortName">CTR_dir</obj_property>
+      <obj_property name="ObjectShortName">CTR_dir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/EPWMxSYNCO" type="logic">
+      <obj_property name="ElementShortName">EPWMxSYNCO</obj_property>
+      <obj_property name="ObjectShortName">EPWMxSYNCO</obj_property>
+   </wvobject>
+</wave_config>

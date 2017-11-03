@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Sep 26 13:03:00 2017
+# Process ID: 4648
+# Current directory: C:/Users/Conor/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4836
+# Log file: C:/Users/Conor/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Conor/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.xpr
+update_compile_order -fileset sources_1
+launch_simulation -noclean_dir
+open_wave_config C:/Users/Conor/Documents/ePWM_Project/Dead_band_Test_Config.wcfg
+open_wave_config C:/Users/Conor/Documents/ePWM_Project/counter_compare_Test_Config.wcfg
+open_wave_config C:/Users/Conor/Documents/ePWM_Project/trip_zone_Test_Config.wcfg
+open_wave_config C:/Users/Conor/Documents/ePWM_Project/time_base_Test_Config.wcfg
+source ePWM.tcl
+add_wave {{/ePWM/U6/ePWMA_DB_Output}} 
+add_wave {{/ePWM/U6/ePWMB_DB_Output}} 
+add_wave {{/ePWM/U6/ePWMA_DB_Output}} 
+open_wave_config {C:/Users/Conor/Documents/ePWM_Project/time_base_Test_Config.wcfg}
+open_wave_config {C:/Users/Conor/Documents/ePWM_Project/trip_zone_Test_Config.wcfg}
+add_wave {{/ePWM/U6/ePWMA_DB_Output}} 
+add_wave {{/ePWM/U6/ePWMB_DB_Output}} 
+add_wave {{/ePWM/U6/ePWMA_TZ_Output}} 
+add_wave {{/ePWM/U6/ePWMB_TZ_Output}} 
+add_force {/ePWM/clk} -radix bin {0 0ns} {1 5000000ps} -repeat_every 10000000ps
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+open_wave_config {C:/Users/Conor/Documents/ePWM_Project/time_base_Test_Config.wcfg}
+relaunch_sim
+add_force {/ePWM/clk} -radix bin {0 0ns} {1 5000000ps} -repeat_every 10000000ps
+run 200 us
+archive_project C:/Users/Conor/ePWM_Project_dbl_backup.xpr.zip -temp_dir C:/Users/Conor/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4648-DESKTOP-SSD56BU -force

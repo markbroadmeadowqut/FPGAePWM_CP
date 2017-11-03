@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ePWM_Simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ePWM_Simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="601000000000fs"></ZoomEndTime>
+      <Cursor1Time time="1201000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="145"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wave_markers>
+      <marker time="155005000000" label="" />
+      <marker time="315005000000" label="" />
+      <marker time="405005000000" label="" />
+      <marker time="475005000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/TBCLK" type="logic">
+      <obj_property name="ElementShortName">TBCLK</obj_property>
+      <obj_property name="ObjectShortName">TBCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/CTR_PRD" type="logic">
+      <obj_property name="ElementShortName">CTR_PRD</obj_property>
+      <obj_property name="ObjectShortName">CTR_PRD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/CTR_Zero" type="logic">
+      <obj_property name="ElementShortName">CTR_Zero</obj_property>
+      <obj_property name="ObjectShortName">CTR_Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/CTR_CMPA" type="logic">
+      <obj_property name="ElementShortName">CTR_CMPA</obj_property>
+      <obj_property name="ObjectShortName">CTR_CMPA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/CTR_CMPB" type="logic">
+      <obj_property name="ElementShortName">CTR_CMPB</obj_property>
+      <obj_property name="ObjectShortName">CTR_CMPB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/CTR_dir" type="logic">
+      <obj_property name="ElementShortName">CTR_dir</obj_property>
+      <obj_property name="ObjectShortName">CTR_dir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/ETCLR" type="array">
+      <obj_property name="ElementShortName">ETCLR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ETCLR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/ETFRC" type="array">
+      <obj_property name="ElementShortName">ETFRC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ETFRC[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/ETFLG" type="array">
+      <obj_property name="ElementShortName">ETFLG[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ETFLG[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider100">
+      <obj_property name="label">Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/ePWMxSOCA" type="logic">
+      <obj_property name="ElementShortName">ePWMxSOCA</obj_property>
+      <obj_property name="ObjectShortName">ePWMxSOCA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/ePWMxSOCB" type="logic">
+      <obj_property name="ElementShortName">ePWMxSOCB</obj_property>
+      <obj_property name="ObjectShortName">ePWMxSOCB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U7/ePWMxINT" type="logic">
+      <obj_property name="ElementShortName">ePWMxINT</obj_property>
+      <obj_property name="ObjectShortName">ePWMxINT</obj_property>
+   </wvobject>
+</wave_config>

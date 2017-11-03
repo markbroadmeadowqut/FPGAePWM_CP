@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ePWM_Simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ePWM_Simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="401000000001fs"></ZoomEndTime>
+      <Cursor1Time time="15810036000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="145"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/TBCLK" type="logic">
+      <obj_property name="ElementShortName">TBCLK</obj_property>
+      <obj_property name="ObjectShortName">TBCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMA_AQ_Output" type="logic">
+      <obj_property name="ElementShortName">ePWMA_AQ_Output</obj_property>
+      <obj_property name="ObjectShortName">ePWMA_AQ_Output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMA_DB_Output" type="logic">
+      <obj_property name="ElementShortName">ePWMA_DB_Output</obj_property>
+      <obj_property name="ObjectShortName">ePWMA_DB_Output</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMB_AQ_Output" type="logic">
+      <obj_property name="ElementShortName">ePWMB_AQ_Output</obj_property>
+      <obj_property name="ObjectShortName">ePWMB_AQ_Output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMB_DB_Output" type="logic">
+      <obj_property name="ElementShortName">ePWMB_DB_Output</obj_property>
+      <obj_property name="ObjectShortName">ePWMB_DB_Output</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider62">
+      <obj_property name="label">Counter Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMA_rising_count_active" type="logic">
+      <obj_property name="ElementShortName">ePWMA_rising_count_active</obj_property>
+      <obj_property name="ObjectShortName">ePWMA_rising_count_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMA_rising_count" type="array">
+      <obj_property name="ElementShortName">ePWMA_rising_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ePWMA_rising_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMA_falling_count_active" type="logic">
+      <obj_property name="ElementShortName">ePWMA_falling_count_active</obj_property>
+      <obj_property name="ObjectShortName">ePWMA_falling_count_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMA_falling_count" type="array">
+      <obj_property name="ElementShortName">ePWMA_falling_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ePWMA_falling_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMB_rising_count_active" type="logic">
+      <obj_property name="ElementShortName">ePWMB_rising_count_active</obj_property>
+      <obj_property name="ObjectShortName">ePWMB_rising_count_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMB_rising_count" type="array">
+      <obj_property name="ElementShortName">ePWMB_rising_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ePWMB_rising_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMB_falling_count_active" type="logic">
+      <obj_property name="ElementShortName">ePWMB_falling_count_active</obj_property>
+      <obj_property name="ObjectShortName">ePWMB_falling_count_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U5/ePWMB_falling_count" type="array">
+      <obj_property name="ElementShortName">ePWMB_falling_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ePWMB_falling_count[9:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,25 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 0c9f66c754dc400bb07ca1f4e18e7d9d --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ePWM_Simulation_behav xil_defaultlib.ePWM_Simulation -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1625] value in initialization depends on signal tbprd [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Time_Base.vhd:72]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Prescale [clock_prescale_default]
+Compiling architecture behavioral of entity xil_defaultlib.Time_Base [time_base_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter_Compare [counter_compare_default]
+Compiling architecture behavioral of entity xil_defaultlib.Action_Qualifier [action_qualifier_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dead_Band [dead_band_default]
+Compiling architecture behavioral of entity xil_defaultlib.Trip_Zone [trip_zone_default]
+Compiling architecture behavioral of entity xil_defaultlib.Event_Trigger [event_trigger_default]
+Compiling architecture behavioral of entity xil_defaultlib.ePWM [epwm_default]
+Compiling architecture behavioral of entity xil_defaultlib.User [user_default]
+Compiling architecture behavioral of entity xil_defaultlib.epwm_simulation
+Built simulation snapshot ePWM_Simulation_behav

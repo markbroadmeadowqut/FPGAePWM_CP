@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../ePWM_Project.srcs/sources_1/new/Action_Qualifier.vhd"
+vhdl xil_defaultlib  "../../../ePWM_Project.srcs/sources_1/new/Clock_Prescale.vhd"
+vhdl xil_defaultlib  "../../../ePWM_Project.srcs/sources_1/new/Counter_Compare.vhd"
+vhdl xil_defaultlib  "../../../ePWM_Project.srcs/sources_1/new/Dead_Band.vhd"
+vhdl xil_defaultlib  "../../../ePWM_Project.srcs/sources_1/new/Event_Trigger.vhd"
+vhdl xil_defaultlib  "../../../ePWM_Project.srcs/sources_1/new/Time_Base.vhd"
+vhdl xil_defaultlib  "../../../ePWM_Project.srcs/sources_1/new/Trip_Zone.vhd"
+vhdl xil_defaultlib  "../../../ePWM_Project.srcs/sources_1/new/User.vhd"
+vhdl xil_defaultlib  "../../../ePWM_Project.srcs/sources_1/new/ePWM.vhd"
+vhdl xil_defaultlib  "../../../ePWM_Project.srcs/sim_1/new/ePWM_Simulation.vhd"
+
+# Do not sort compile order
+nosort

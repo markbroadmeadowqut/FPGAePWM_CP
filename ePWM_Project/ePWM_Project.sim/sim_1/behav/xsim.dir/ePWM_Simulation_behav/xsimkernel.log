@@ -1,0 +1,7 @@
+Running: xsim.dir/ePWM_Simulation_behav/xsimk.exe -simmode gui -wdb ePWM_Simulation_behav.wdb -simrunnum 0 -socket 49610
+Design successfully loaded
+Design Loading Memory Usage: 5604 KB (Peak: 5604 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 14308 KB (Peak: 14308 KB)
+Simulation CPU Usage: 390 ms

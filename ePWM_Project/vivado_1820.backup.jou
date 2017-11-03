@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Sep 26 15:30:24 2017
+# Process ID: 1820
+# Current directory: C:/Users/Conor/Documents/ePWM_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3056 C:\Users\Conor\Documents\ePWM_Project\ePWM_Project.xpr
+# Log file: C:/Users/Conor/Documents/ePWM_Project/vivado.log
+# Journal file: C:/Users/Conor/Documents/ePWM_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.xpr
+update_compile_order -fileset sources_1
+launch_simulation -noclean_dir
+open_wave_config C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sim_1/imports/ePWM_Project/Dead_band_Test_Config.wcfg
+open_wave_config C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sim_1/imports/ePWM_Project/counter_compare_Test_Config.wcfg
+open_wave_config C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sim_1/imports/ePWM_Project/trip_zone_Test_Config.wcfg
+open_wave_config C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sim_1/imports/ePWM_Project/time_base_Test_Config.wcfg
+source ePWM.tcl
+add_force {/ePWM/clk} -radix hex {0 0ns} {1 5000000ps} -repeat_every 10000000ps
+run 200 us
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.runs/impl_1/ePWM.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.runs/impl_1/ePWM.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+relaunch_sim
+add_force {/ePWM/clk} -radix hex {0 0ns} {1 5000000ps} -repeat_every 10000000ps
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+add_wave {{/ePWM/U4/ePWM_A_Buffer}} 
+relaunch_sim
+add_force {/ePWM/U1/clk} -radix hex {0 0ns} {1 5000000ps} -repeat_every 10000000ps
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+relaunch_sim
+add_force {/ePWM/clk} -radix hex {0 0ns} {1 5000000ps} -repeat_every 10000000ps
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+relaunch_sim
+add_force {/ePWM/clk} -radix hex {0 0ns} {1 5000000ps} -repeat_every 10000000ps
+run 200 us
+run 200 us
+run 200 us
+run 200 us
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.runs/impl_1/ePWM.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+archive_project C:/Users/Conor/Documents/ePWM_Project_2017_09_26_b.xpr.zip -temp_dir C:/Users/Conor/Documents/ePWM_Project/.Xil/Vivado-1820-DESKTOP-SSD56BU -force
+close_sim

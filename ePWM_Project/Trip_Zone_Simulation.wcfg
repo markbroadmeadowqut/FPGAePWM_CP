@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ePWM_Simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ePWM_Simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="501000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1001000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="145"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/TZ1" type="logic">
+      <obj_property name="ElementShortName">TZ1</obj_property>
+      <obj_property name="ObjectShortName">TZ1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/TZ2" type="logic">
+      <obj_property name="ElementShortName">TZ2</obj_property>
+      <obj_property name="ObjectShortName">TZ2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/TZ3" type="logic">
+      <obj_property name="ElementShortName">TZ3</obj_property>
+      <obj_property name="ObjectShortName">TZ3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/TZ4" type="logic">
+      <obj_property name="ElementShortName">TZ4</obj_property>
+      <obj_property name="ObjectShortName">TZ4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/TZ5" type="logic">
+      <obj_property name="ElementShortName">TZ5</obj_property>
+      <obj_property name="ObjectShortName">TZ5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/TZ6" type="logic">
+      <obj_property name="ElementShortName">TZ6</obj_property>
+      <obj_property name="ObjectShortName">TZ6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/TZFRC" type="array">
+      <obj_property name="ElementShortName">TZFRC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">TZFRC[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/TZCLR" type="array">
+      <obj_property name="ElementShortName">TZCLR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">TZCLR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U2/CTR_Zero_Buffer" type="logic">
+      <obj_property name="ElementShortName">CTR_Zero_Buffer</obj_property>
+      <obj_property name="ObjectShortName">CTR_Zero_Buffer</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider83">
+      <obj_property name="label">Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/ePWMA_DB_Output" type="logic">
+      <obj_property name="ElementShortName">ePWMA_DB_Output</obj_property>
+      <obj_property name="ObjectShortName">ePWMA_DB_Output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/ePWMA_TZ_Output" type="logic">
+      <obj_property name="ElementShortName">ePWMA_TZ_Output</obj_property>
+      <obj_property name="ObjectShortName">ePWMA_TZ_Output</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/ePWMB_DB_Output" type="logic">
+      <obj_property name="ElementShortName">ePWMB_DB_Output</obj_property>
+      <obj_property name="ObjectShortName">ePWMB_DB_Output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/ePWMB_TZ_Output" type="logic">
+      <obj_property name="ElementShortName">ePWMB_TZ_Output</obj_property>
+      <obj_property name="ObjectShortName">ePWMB_TZ_Output</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider88">
+      <obj_property name="label">Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/TZFLG" type="array">
+      <obj_property name="ElementShortName">TZFLG[15:0]</obj_property>
+      <obj_property name="ObjectShortName">TZFLG[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ePWM_Simulation/UUT/U1/U6/TZ_Interrupt" type="logic">
+      <obj_property name="ElementShortName">TZ_Interrupt</obj_property>
+      <obj_property name="ObjectShortName">TZ_Interrupt</obj_property>
+   </wvobject>
+</wave_config>

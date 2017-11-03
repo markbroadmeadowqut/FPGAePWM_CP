@@ -1,0 +1,712 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Oct 24 09:31:52 2017
+# Process ID: 7068
+# Current directory: C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.runs/synth_1
+# Command line: vivado.exe -log User.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source User.tcl
+# Log file: C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.runs/synth_1/User.vds
+# Journal file: C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source User.tcl -notrace
+Command: synth_design -top User -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti-csg324'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti-csg324'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6580 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 324.039 ; gain = 79.414
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'User' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:52]
+INFO: [Synth 8-3491] module 'ePWM' declared at 'C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd:31' bound to instance 'U1' of component 'ePWM' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+INFO: [Synth 8-638] synthesizing module 'ePWM' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd:98]
+INFO: [Synth 8-3491] module 'Clock_Prescale' declared at 'C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Clock_Prescale.vhd:30' bound to instance 'U1' of component 'Clock_Prescale' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd:254]
+INFO: [Synth 8-638] synthesizing module 'Clock_Prescale' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Clock_Prescale.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'Clock_Prescale' (1#1) [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Clock_Prescale.vhd:38]
+INFO: [Synth 8-3491] module 'Time_Base' declared at 'C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Time_Base.vhd:28' bound to instance 'U2' of component 'Time_Base' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'Time_Base' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Time_Base.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'Time_Base' (2#1) [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Time_Base.vhd:50]
+INFO: [Synth 8-3491] module 'Counter_Compare' declared at 'C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Counter_Compare.vhd:29' bound to instance 'U3' of component 'Counter_Compare' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd:280]
+INFO: [Synth 8-638] synthesizing module 'Counter_Compare' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Counter_Compare.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'Counter_Compare' (3#1) [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Counter_Compare.vhd:46]
+INFO: [Synth 8-3491] module 'Action_Qualifier' declared at 'C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Action_Qualifier.vhd:33' bound to instance 'U4' of component 'Action_Qualifier' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd:295]
+INFO: [Synth 8-638] synthesizing module 'Action_Qualifier' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Action_Qualifier.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'Action_Qualifier' (4#1) [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Action_Qualifier.vhd:54]
+INFO: [Synth 8-3491] module 'Dead_Band' declared at 'C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:37' bound to instance 'U5' of component 'Dead_Band' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd:313]
+INFO: [Synth 8-638] synthesizing module 'Dead_Band' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'Dead_Band' (5#1) [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:53]
+INFO: [Synth 8-3491] module 'Trip_Zone' declared at 'C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Trip_Zone.vhd:36' bound to instance 'U6' of component 'Trip_Zone' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd:329]
+INFO: [Synth 8-638] synthesizing module 'Trip_Zone' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Trip_Zone.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'Trip_Zone' (6#1) [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Trip_Zone.vhd:62]
+INFO: [Synth 8-3491] module 'Event_Trigger' declared at 'C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Event_Trigger.vhd:37' bound to instance 'U7' of component 'Event_Trigger' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd:356]
+INFO: [Synth 8-638] synthesizing module 'Event_Trigger' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Event_Trigger.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Event_Trigger' (7#1) [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Event_Trigger.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'ePWM' (8#1) [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/ePWM.vhd:98]
+WARNING: [Synth 8-3848] Net led2_b in module/entity User does not have driver. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:44]
+WARNING: [Synth 8-3848] Net led3_b in module/entity User does not have driver. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:45]
+WARNING: [Synth 8-3848] Net TBSTS in module/entity User does not have driver. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'User' (9#1) [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:52]
+WARNING: [Synth 8-3917] design User has port io_34 driven by constant 0
+WARNING: [Synth 8-3917] design User has port io_35 driven by constant 0
+WARNING: [Synth 8-3917] design User has port io_40 driven by constant 0
+WARNING: [Synth 8-3917] design User has port io_41 driven by constant 0
+WARNING: [Synth 8-3917] design User has port led1_b driven by constant 0
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETSEL[7]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETSEL[6]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETSEL[5]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETSEL[4]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETPS[15]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETPS[14]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETPS[11]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETPS[10]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETPS[7]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETPS[6]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETPS[5]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETPS[4]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETPS[3]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETPS[2]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[15]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[14]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[13]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[12]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[11]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[10]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[9]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[8]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[7]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[6]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[5]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[4]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETCLR[1]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[15]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[14]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[13]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[12]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[11]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[10]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[9]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[8]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[7]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[6]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[5]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[4]
+WARNING: [Synth 8-3331] design Event_Trigger has unconnected port ETFRC[1]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[15]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[14]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[13]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[12]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[11]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[10]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[9]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[8]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[7]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[6]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[5]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[4]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFLG[3]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZSEL[15]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZSEL[14]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZSEL[7]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZSEL[6]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[15]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[14]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[13]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[12]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[11]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[10]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[9]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[8]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[7]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[6]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[5]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCTL[4]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[15]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[14]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[13]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[12]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[11]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[10]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[9]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[8]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[7]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[6]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[5]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[4]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[3]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZEINT[0]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[15]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[14]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[13]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[12]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[11]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[10]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[9]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[8]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[7]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[6]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[5]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[4]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZCLR[3]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFRC[15]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFRC[14]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFRC[13]
+WARNING: [Synth 8-3331] design Trip_Zone has unconnected port TZFRC[12]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 367.129 ; gain = 122.504
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[15] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[14] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[13] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[12] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[11] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[10] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[9] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[8] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[7] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[6] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[5] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[4] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[3] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[2] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[1] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+WARNING: [Synth 8-3295] tying undriven pin U1:TBSTS[0] to constant 0 [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/User.vhd:400]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 367.129 ; gain = 122.504
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/new/ARTY_Constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SW_reset'. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/new/ARTY_Constraints.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/new/ARTY_Constraints.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/new/ARTY_Constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/new/ARTY_Constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/User_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/User_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'BTN[0]'. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTN[1]'. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTN[2]'. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTN[3]'. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'UART_TXD'. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/constrs_1/imports/constraints/Arty_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 668.102 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "Clock_Counter" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element Clock_Counter_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Clock_Prescale.vhd:69]
+INFO: [Synth 8-5546] ROM "Clock_Counter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "EPWMxSYNCO_Buffer" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3936] Found unconnected internal register 'AQCSFRC_Active_reg' and it is trimmed from '16' to '4' bits. [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Action_Qualifier.vhd:95]
+WARNING: [Synth 8-6014] Unused sequential element ePWMA_falling_count_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:120]
+WARNING: [Synth 8-6014] Unused sequential element ePWMA_rising_count_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:135]
+WARNING: [Synth 8-6014] Unused sequential element ePWMB_falling_count_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:148]
+WARNING: [Synth 8-6014] Unused sequential element ePWMB_rising_count_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:160]
+INFO: [Synth 8-5544] ROM "EPWMxSOCB_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCB_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCB_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCA_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCA_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCA_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxINT_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxINT_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxINT_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCB_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCB_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCB_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCA_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCA_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxSOCA_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxINT_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxINT_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "EPWMxINT_buffer" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "test" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "CMPA_1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 3     
+	   2 Input     10 Bit       Adders := 4     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 6     
+	               10 Bit    Registers := 4     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 38    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 12    
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 18    
+	   8 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 177   
+	   3 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module User 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Clock_Prescale 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Time_Base 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 31    
+	   3 Input      1 Bit        Muxes := 1     
+Module Counter_Compare 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 6     
+Module Action_Qualifier 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 79    
+	   4 Input      1 Bit        Muxes := 2     
+Module Dead_Band 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 4     
++---Registers : 
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 24    
+	   3 Input      1 Bit        Muxes := 4     
+Module Trip_Zone 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+Module Event_Trigger 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 18    
+	   2 Input      1 Bit        Muxes := 35    
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'U1/U7/SOCA_Force_set_reg' into 'U1/U7/SOCB_Force_set_reg' [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Event_Trigger.vhd:336]
+WARNING: [Synth 8-6014] Unused sequential element U1/U2/EPWMxSYNCO_Buffer_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Time_Base.vhd:311]
+WARNING: [Synth 8-6014] Unused sequential element U1/U7/SOCA_Force_set_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Event_Trigger.vhd:336]
+INFO: [Synth 8-5546] ROM "U1/U1/Clock_Counter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "test" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "CMPA_1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element U1/U1/Clock_Counter_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Clock_Prescale.vhd:69]
+WARNING: [Synth 8-6014] Unused sequential element U1/U5/ePWMB_rising_count_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:160]
+WARNING: [Synth 8-6014] Unused sequential element U1/U5/ePWMA_rising_count_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:135]
+WARNING: [Synth 8-6014] Unused sequential element U1/U5/ePWMB_falling_count_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:148]
+WARNING: [Synth 8-6014] Unused sequential element U1/U5/ePWMA_falling_count_reg was removed.  [C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.srcs/sources_1/new/Dead_Band.vhd:120]
+WARNING: [Synth 8-3917] design User has port io_34 driven by constant 0
+WARNING: [Synth 8-3917] design User has port io_35 driven by constant 0
+WARNING: [Synth 8-3917] design User has port io_40 driven by constant 0
+WARNING: [Synth 8-3917] design User has port io_41 driven by constant 0
+WARNING: [Synth 8-3917] design User has port led1_b driven by constant 0
+WARNING: [Synth 8-3332] Sequential element (U1/U6/TZ_Interrupt_Buffer_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U6/TZ_Interrupt_Available_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U6/TZ_Flag_Buffer_reg[2]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U6/TZ_Flag_Buffer_reg[1]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U6/TZ_Flag_Buffer_reg[0]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/EPWMxINT_buffer_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/EPWMxSOCA_buffer_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/EPWMxSOCB_buffer_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/ETFLG_buffer_reg[3]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/ETFLG_buffer_reg[2]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/ETFLG_buffer_reg[0]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/INTCNT_reg[1]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/INTCNT_reg[0]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/SOCB_Force_set_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/SOCACNT_reg[1]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/SOCACNT_reg[0]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/SOCBCNT_reg[1]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U7/SOCBCNT_reg[0]) is unused and will be removed from module User.
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[0]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[1]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U1/U3/CMPB_Active_reg[2] )
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[3]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[4]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[5]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[6]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[7]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[8]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[9]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[10]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[11]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[12]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[13]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U1/U3/CMPB_Active_reg[14]' (FDE) to 'U1/U3/CMPB_Active_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U1/U3/CMPB_Active_reg[15] )
+INFO: [Synth 8-3886] merging instance 'U1/U4/OTSFB_Triggered_reg' (FDRE) to 'U1/U4/OTSFA_Triggered_reg'
+INFO: [Synth 8-3886] merging instance 'U1/U4/AQCSFRC_Active_reg[3]' (FDE) to 'U1/U4/AQCSFRC_Active_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U1/U4/AQCSFRC_Active_reg[2]' (FDE) to 'U1/U4/AQCSFRC_Active_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U1/U4/OTSFA_Triggered_reg )
+INFO: [Synth 8-3886] merging instance 'U1/U4/AQCSFRC_Active_reg[1]' (FDE) to 'U1/U4/AQCSFRC_Active_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U1/U4/AQCSFRC_Active_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[2]' (FDE) to 'U1/U2/TBPRD_Active_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[0]' (FDE) to 'U1/U2/TBPRD_Active_reg[1]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U1/U2/TBPRD_Active_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[3]' (FDE) to 'U1/U2/TBPRD_Active_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[4]' (FDE) to 'U1/U2/TBPRD_Active_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[5]' (FDE) to 'U1/U2/TBPRD_Active_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[6]' (FDE) to 'U1/U2/TBPRD_Active_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[7]' (FDE) to 'U1/U2/TBPRD_Active_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[8]' (FDE) to 'U1/U2/TBPRD_Active_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[9]' (FDE) to 'U1/U2/TBPRD_Active_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[10]' (FDE) to 'U1/U2/TBPRD_Active_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[11]' (FDE) to 'U1/U2/TBPRD_Active_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[12]' (FDE) to 'U1/U2/TBPRD_Active_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[13]' (FDE) to 'U1/U2/TBPRD_Active_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U1/U2/TBPRD_Active_reg[14]' (FDE) to 'U1/U2/TBPRD_Active_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U1/U2/TBPRD_Active_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U1/U2/SYNC_Activated_reg )
+INFO: [Synth 8-3886] merging instance 'U1/U6/ePWMB_Tripped_Output_reg' (FDSE) to 'U1/U6/ePWMA_Tripped_Output_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U1/U6/ePWMA_Tripped_Output_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U1/U6/TZ_One_Shot_Active_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U1/U6/TZ_Cy_by_Cy_Active_reg )
+WARNING: [Synth 8-3332] Sequential element (U1/U1/Clock_Counter_reg[7]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U1/Clock_Counter_reg[6]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U1/Clock_Counter_reg[5]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U1/Clock_Counter_reg[4]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U1/Clock_Counter_reg[3]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U1/Clock_Counter_reg[2]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U1/Clock_Counter_reg[1]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U2/SYNC_Activated_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U2/TBPRD_Active_reg[15]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U2/TBPRD_Active_reg[1]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U2/CTR_PRD_Buffer_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U3/CMPB_Active_reg[15]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U3/CMPB_Active_reg[2]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U4/Initialised_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U4/AQCSFRC_Active_reg[0]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_active_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_reg[9]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_reg[8]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_reg[7]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_reg[6]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_reg[5]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_reg[4]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_reg[3]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_reg[2]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_reg[1]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_rising_count_reg[0]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWM_B_rising_delay_output_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_active_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_reg[9]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_reg[8]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_reg[7]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_reg[6]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_reg[5]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_reg[4]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_reg[3]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_reg[2]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_reg[1]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_rising_count_reg[0]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWM_A_rising_delay_output_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_active_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_reg[9]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_reg[8]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_reg[7]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_reg[6]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_reg[5]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_reg[4]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_reg[3]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_reg[2]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_reg[1]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMB_falling_count_reg[0]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWM_B_falling_delay_output_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_active_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_reg[9]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_reg[8]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_reg[7]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_reg[6]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_reg[5]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_reg[4]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_reg[3]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_reg[2]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_reg[1]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWMA_falling_count_reg[0]) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U5/ePWM_A_falling_delay_output_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U6/TZ_Cy_by_Cy_Active_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U6/TZ_One_Shot_Active_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U4/OTSFA_Triggered_reg) is unused and will be removed from module User.
+WARNING: [Synth 8-3332] Sequential element (U1/U6/ePWMA_Tripped_Output_reg) is unused and will be removed from module User.
+INFO: [Synth 8-3886] merging instance 'U1/U3/Initialised_reg' (FDE) to 'U1/U2/Initialised_reg'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    22|
+|3     |LUT1   |    67|
+|4     |LUT2   |     7|
+|5     |LUT3   |    11|
+|6     |LUT4   |    12|
+|7     |LUT5   |     8|
+|8     |LUT6   |    13|
+|9     |FDRE   |   102|
+|10    |IBUF   |     1|
+|11    |OBUF   |     8|
+|12    |OBUFT  |     2|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-----------------+------+
+|      |Instance |Module           |Cells |
++------+---------+-----------------+------+
+|1     |top      |                 |   255|
+|2     |  U1     |ePWM             |   120|
+|3     |    U1   |Clock_Prescale   |    25|
+|4     |    U2   |Time_Base        |    61|
+|5     |    U3   |Counter_Compare  |    28|
+|6     |    U4   |Action_Qualifier |     2|
+|7     |    U5   |Dead_Band        |     4|
++------+---------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 668.102 ; gain = 423.477
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 106 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 668.102 ; gain = 122.504
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 668.102 ; gain = 423.477
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+109 Infos, 233 Warnings, 6 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 668.102 ; gain = 431.238
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Conor/Documents/ePWM_Project/ePWM_Project.runs/synth_1/User.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 668.102 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 24 09:32:21 2017...
